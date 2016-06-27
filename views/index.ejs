@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Index Page</title>
+  </head>
+  <body>
+    ffs!
+    
+    <ul>
+      I like <% for(var i=0; i< favFood.length; i++) { %>
+                  <li>
+                    <%= favFood[i].food %>
+                  </li>
+                <% } %>
+    </ul>
+    <br>
+    <a href="/about">About Page</a>
+    <a href="/contact">Contact Page</a>
+  </body>
+</html>
